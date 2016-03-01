@@ -1,4 +1,4 @@
-define(['facade', 'markerclusterer', 'async!https://maps.googleapis.com/maps/api/js?key=AIzaSyBhe3Z0Fw7UTUBxoIWcSqsU5Z6Qux5i078&callback=initMap'], function(facade) {
+define(['facade', './markerclusterer', 'async!https://maps.googleapis.com/maps/api/js?key=AIzaSyBhe3Z0Fw7UTUBxoIWcSqsU5Z6Qux5i078&callback=initMap'], function(facade) {
   
   var addedMarkers = [];
   var infowindow = new google.maps.InfoWindow();
